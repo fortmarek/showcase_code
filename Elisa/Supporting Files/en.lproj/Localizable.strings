@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Elisa
+
+  Created by Marek Fořt on 11/13/17.
+  Copyright © 2017 Marek Fořt. All rights reserved.
+*/
+
+
+//Categories
+"category.featured" = "Featured";

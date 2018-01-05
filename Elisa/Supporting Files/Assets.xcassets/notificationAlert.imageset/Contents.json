@@ -1,0 +1,23 @@
+{
+  "info" : {
+    "author" : "zeplin",
+    "version" : 1
+  },
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "notificationAlert.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "notificationAlert@3x.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "notificationAlert@2x.png",
+      "scale" : "2x"
+    }
+  ]
+}

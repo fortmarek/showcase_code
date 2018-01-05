@@ -1,0 +1,9 @@
+strings:
+  paths: Elisa/Supporting Files/Base.lproj/Localizable.strings
+  templateName: structured-swift3
+  output: Elisa/Generated/strings.swift
+xcassets:
+  paths:
+   - Elisa/Supporting Files/Assets.xcassets
+  templateName: swift3
+  output: Elisa/Generated/Images.swift

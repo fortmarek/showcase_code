@@ -1,0 +1,145 @@
+/* 
+  Localizable.strings
+  Elisa
+
+  Created by Marek Fořt on 11/13/17.
+  Copyright © 2017 Marek Fořt. All rights reserved.
+*/
+
+//General
+"general.share" = "Sdílet";
+"general.pullToRefresh" = "Táhnutím aktualizovat";
+"general.shareApp" = "Vyzkoušej tuhle aplikaci a něco se nauč!";
+"general.send" = "Poslat";
+"general.cancel" = "Zrušit";
+
+//TabController
+"tabBar.home" = "Kurzy";
+"tabBar.myCourses" = "Moje Kurzy";
+"tabBar.achievements" = "Úspěchy";
+"tabBar.profile" = "Profil";
+
+//User
+"user.points" = "%d bodů";
+"user.pointsTitle" = "BODŮ";
+"user.addFriend" = "Přidat";
+
+//Welcome
+"welcome.welcome" = "Vítejte";
+"welcome.title" = "Nikdy se nepřestávejte učit";
+"welcome.signUp" = "Registrovat";
+"welcome.logInFacebook" = "Facebook přihlášení";
+"welcome.logIn" = "Přihlásit se";
+
+//Sign Up
+"signup.name" = "jméno";
+"signup.email" = "e-mail";
+"signup.password" = "heslo";
+"signup.join" = "Registrovat";
+"signup.agreeTitle" = "Klepnutím '%@' souhlasíte";
+"signup.termsAndConditions" = "s našimi podmínkami";
+
+//Log in
+"login.login" = "Přihlásit se";
+"login.forgot" = "Zapomenuté?";
+
+//Home
+"home.title" = "Kurzy";
+"home.seeAll" = "VŠE";
+
+//Categories
+"category.categories" = "Kategorie";
+"category.featured" = "Vybrané";
+"category.recommended" = "Doporučené";
+
+//My Courses
+"myCourses.all" = "Vše";
+"myCourses.allEmpty" = "Zatím nemáš žádné kurzy";
+"myCourses.ongoing" = "Aktuální";
+"myCourses.ongoingEmpty" = "Zatím jsi nezačal ještě žádný kurz";
+"myCourses.completed" = "Hotové";
+"myCourses.completedEmpty" = "Zatím jsi ještě nedokončil žádný kurz, pokračuj v učení!";
+
+
+//Badges
+"badges.badges" = "Odznaky";
+"badges.noBadges" = "Zatím nemáš žádné odznaky, pokračuj v učení!";
+"badges.shareBadge" = "Právě jsem získal odznak za %@!";
+"badges.awesome" = "Super!";
+
+//Leaderboard
+"leaderboard.leaderboard" = "Žebříček";
+"leaderboard.friends" = "Přátelé";
+"leaderboard.inviteFriends" = "Pozvi Přátele";
+
+
+//Profile
+"profile.saveFailed" = "Uložení profilu se nezdařilo";
+"profile.saveSucceded" = "Uložení profilu se zdařilo";
+"profile.name" = "Jméno";
+"profile.success" = "Úspěch";
+"profile.save" = "Uložit";
+"profile.version" = "Verze %@";
+"profile.support" = "Podpora";
+"profile.terms" = "Pravidla a podmínky";
+"profile.privacy" = "Soukromí";
+"profile.contact" = "Kontakty";
+"profile.rateApp" = "Hodnotit aplikaci";
+"profile.logout" = "Odhlásit";
+"profile.editProfile" = "Upravit účet";
+"profile.changePassword" = "Změnit heslo";
+"profile.general" = "Obecné";
+
+//Course
+"course.reviews" = "Hodnocení";
+"course.noReviews" = "Zatím žádná hodnocení";
+"course.lessons" = "Lekce";
+"course.courseProgress" = "Progres kurzu";
+"course.chapter" = "Kapitola %d";
+"course.tapToRate" = "Hodnocení: ";
+"course.review" = "Recenze";
+"course.writeReview" = "Napsat recenzi";
+"course.reviewSucceeded" = "Poslání recenze uspělo";
+"course.reviewFailed" = "Poslání recenze selhalo";
+"course.ratingSucceeded" = "Poslání hodnocení uspělo";
+"course.ratingFailed" = "Poslání hodnocení selhalo";
+"course.notEnoughInfo" = "Nedostatečně informací vyplněno";
+"course.shareCourse" = "Učím se o %@ v aplikaci Elisa, stáhni si ji zde: ";
+
+//Game
+"game.continueTitle" = "Pokračovat";
+"game.finishLesson" = "Ukončit lekci";
+"game.check" = "Zkontrolovat";
+"game.tryAgain" = "Zkus to znova!";
+
+//Connection
+"connection.checkConnection" = "Zkontrolujte své připojení";
+
+//Date
+"date.minute" = "minuta";
+"date.hour" = "hodina";
+"date.day" = "den";
+"date.week" = "týden";
+"date.month" = "měsíc";
+"date.year" = "rok";
+"date.minutes" = "minut";
+"date.hours" = "hodin";
+"date.days" = "dnů";
+"date.weeks" = "týdnů";
+"date.months" = "měsíců";
+"date.years" = "roky";
+"date.ago" = "%d %@";
+"date.recently" = "Nedávno";
+
+//Popups
+"popup.notifications" = "Oznámení";
+"popup.notificationsDescription" = "Abyste dostávali zprávy o tom, co je nové, zapněte si oznámení";
+"popup.settings" = "Nastavení";
+"popup.settingsDescription" = "V nastavení zapněte oznámení pro Elisa";
+"popup.cancel" = "Zrušit";
+"popup.later" = "Později";
+"popup.enable" = "Povolit";
+"popup.restart" = "Opakovat lekci";
+"popup.restartDescription" = "Chcete si tuto lekci zopakovat?";
+"popup.no" = "Ne";
+"popup.yes" = "Ano";

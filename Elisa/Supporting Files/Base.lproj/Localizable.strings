@@ -1,0 +1,145 @@
+/* 
+  Localizable.strings
+  Elisa
+
+  Created by Marek Fořt on 11/13/17.
+  Copyright © 2017 Marek Fořt. All rights reserved.
+*/
+
+//General
+"general.share" = "Share";
+"general.pullToRefresh" = "Pull to refresh";
+"general.shareApp" = "Try this app and learn something!";
+"general.send" = "Send";
+"general.cancel" = "Cancel";
+
+//TabController
+"tabBar.home" = "Home";
+"tabBar.myCourses" = "My Courses";
+"tabBar.achievements" = "Achievements";
+"tabBar.profile" = "Profile";
+
+//User
+"user.points" = "%d Points";
+"user.pointsTitle" = "POINTS";
+"user.addFriend" = "Add Friend";
+
+//Welcome
+"welcome.welcome" = "Welcome";
+"welcome.title" = "Never stop learning";
+"welcome.signUp" = "Sign Up";
+"welcome.logInFacebook" = "Log In With Facebook";
+"welcome.logIn" = "Log In";
+
+//Sign Up
+"signup.name" = "first & last name";
+"signup.email" = "e-mail";
+"signup.password" = "password";
+"signup.join" = "Join";
+"signup.agreeTitle" = "By pressing '%@' you agree to our";
+"signup.termsAndConditions" = "terms & conditions";
+
+//Log in
+"login.login" = "Log In";
+"login.forgot" = "Forgot?";
+
+//Home
+"home.title" = "Courses";
+"home.seeAll" = "SEE ALL";
+
+//Categories
+"category.categories" = "Categories";
+"category.featured" = "Featured";
+"category.recommended" = "Recommended";
+
+//My Courses
+"myCourses.all" = "All";
+"myCourses.allEmpty" = "No courses yet";
+"myCourses.ongoing" = "Ongoing";
+"myCourses.ongoingEmpty" = "No ongoing courses yet";
+"myCourses.completed" = "Completed";
+"myCourses.completedEmpty" = "No completed courses yet, keep working!";
+
+
+//Badges
+"badges.badges" = "Badges";
+"badges.noBadges" = "No badges yet, keep learning!";
+"badges.shareBadge" = "I just got badge for %@!";
+"badges.awesome" = "Awesome!";
+
+//Leaderboard
+"leaderboard.leaderboard" = "Leaderboard";
+"leaderboard.friends" = "Friends";
+"leaderboard.inviteFriends" = "Invite Friends";
+
+
+//Profile
+"profile.saveFailed" = "Saving profile failed";
+"profile.saveSucceded" = "Saving profile succeded";
+"profile.name" = "Name";
+"profile.success" = "Success";
+"profile.save" = "Save";
+"profile.version" = "Version %@";
+"profile.support" = "Support";
+"profile.terms" = "Terms and Conditions";
+"profile.privacy" = "Privacy Policy";
+"profile.contact" = "Contact";
+"profile.rateApp" = "Rate App";
+"profile.logout" = "Logout";
+"profile.editProfile" = "Edit Profile";
+"profile.changePassword" = "Change Password";
+"profile.general" = "General";
+
+//Course
+"course.reviews" = "Reviews";
+"course.noReviews" = "No reviews yet";
+"course.lessons" = "Lessons";
+"course.courseProgress" = "Course Progress";
+"course.chapter" = "Chapter %d";
+"course.tapToRate" = "Tap to Rate: ";
+"course.review" = "Review";
+"course.writeReview" = "Write a Review";
+"course.reviewSucceeded" = "Sending the review succeeded";
+"course.reviewFailed" = "Sending Review Failed";
+"course.ratingSucceeded" = "Sending rating succeded";
+"course.ratingFailed" = "Sending rating failed";
+"course.notEnoughInfo" = "Not enough info filled in";
+"course.shareCourse" = "I am learning about %@ in Elisa app, download it here: ";
+
+//Game
+"game.continueTitle" = "Continue";
+"game.finishLesson" = "Finish Lesson";
+"game.check" = "Check";
+"game.tryAgain" = "Try Again!";
+
+//Connection
+"connection.checkConnection" = "Check your connection";
+
+//Date
+"date.minute" = "minute";
+"date.hour" = "hour";
+"date.day" = "day";
+"date.week" = "week";
+"date.month" = "month";
+"date.year" = "year";
+"date.minutes" = "minutes";
+"date.hours" = "hours";
+"date.days" = "days";
+"date.weeks" = "weeks";
+"date.months" = "months";
+"date.years" = "years";
+"date.ago" = "%d %@ ago";
+"date.recently" = "Recently";
+
+//Popups
+"popup.notifications" = "Notifications";
+"popup.notificationsDescription" = "To get alerts from friends and what's new, turn on notifications";
+"popup.settings" = "Settings";
+"popup.settingsDescription" = "In settings turn on notifications for Elisa";
+"popup.cancel" = "Cancel";
+"popup.later" = "Later";
+"popup.enable" = "Enable";
+"popup.restart" = "Restart Lesson";
+"popup.restartDescription" = "Do you want to restart lesson?";
+"popup.no" = "No";
+"popup.yes" = "Yes";

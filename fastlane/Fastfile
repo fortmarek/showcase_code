@@ -1,0 +1,42 @@
+# More documentation about how to customize your build
+# can be found here:
+# https://docs.fastlane.tools
+fastlane_version "1.109.0"
+
+# This value helps us track success metrics for Fastfiles
+# we automatically generate. Feel free to remove this line
+# once you get things running smoothly!
+generated_fastfile_id "17194fdb-63f3-4933-b2dd-c68fc7a4d32e"
+
+default_platform :ios
+
+ENV["FASTLANE_ITC_TEAM_ID"] = "92687901"
+
+# Fastfile actions accept additional configuration, but
+# don't worry, fastlane will prompt you for required
+# info which you can add here later
+lane :beta do
+  increment_build_number
+  match(type: "development")
+  # build your iOS app
+  gym(
+    scheme: "Elisa",
+    export_method: "development"
+  )
+
+  # upload to Testflight
+  # pilot(skip_waiting_for_build_processing: true)
+  # upload to Beta by Crashlytics
+  crashlytics(
+    api_token: "f43ede3e690954a6c89bdcfc423d646b65171533",
+    build_secret: "f960086825a70aa875417f8e2829081be8cc20919357689f0448033df6e7b177"
+  )
+end
+
+lane :appstore do
+  increment_build_number
+  # snapshot                      # generate new screenshots for the App Store
+  match(type: "appstore")       # see code signing guide for more information
+  gym(scheme: "Elisa")          # build your app
+  appstore                      # upload your app to iTunes Connect
+end
